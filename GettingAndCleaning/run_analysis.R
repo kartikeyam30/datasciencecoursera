@@ -10,7 +10,7 @@ unzip("/home/kartikeya/datavalidationgetdata%2Fprojectfiles%2FUCI%20HAR%20Datase
 #Load all the label/feature files
 label<- fread(file.path(path, "UCI HAR Dataset/activity_labels.txt")
               , col.names = c("classLabels", "activityName"))
-features<- fread(file.path(path, "UCI HAR Dataset/activity_labels.txt")
+features<- fread(file.path(path, "UCI HAR Dataset/features.txt")
               , col.names = c("index", "featureNames"))
 
 #Extracting only mean and standard devation
