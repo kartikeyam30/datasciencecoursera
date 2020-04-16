@@ -1,10 +1,10 @@
 
 
-#Getting and Cleaning Data project
+# Getting and Cleaning Data project
 
 Project by Kartikeya Mehrotra
 
-##Project files
+## Project files
 
     A tidy data set - [here]
     A link to a Github repository with your script for performing the analysis [here]
